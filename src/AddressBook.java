@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class AddressBook {
-    private static List<BuddyInfo> buddyList;
+    private List<BuddyInfo> buddyList;
 
     public AddressBook(){
         buddyList = new ArrayList<>();
     }
 
     public static void main(String[] args) {
-        BuddyInfo buddy = new BuddyInfo();
+        BuddyInfo buddy = new BuddyInfo("Tom");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
