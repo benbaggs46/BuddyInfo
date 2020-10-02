@@ -16,6 +16,8 @@ public class AddressBook {
         //this comment was made in IntelliJ and pushed to the online repository
         
         //this comment was made in GitHub and pulled into IntelliJ
+
+        //this comment was made in a new branch of the project
     }
 
     public void addBuddy(BuddyInfo buddy){
