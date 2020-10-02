@@ -13,7 +13,9 @@ public class AddressBook {
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
 
-        //this comment was made in intelliJ and pushed to the online repository
+        //this comment was made in IntelliJ and pushed to the online repository
+        
+        //this comment was made in GitHub and pulled into IntelliJ
     }
 
     public void addBuddy(BuddyInfo buddy){
