@@ -12,6 +12,8 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
+
+        //this comment was made in intelliJ and pushed to the online repository
     }
 
     public void addBuddy(BuddyInfo buddy){
